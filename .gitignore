@@ -1,3 +1,20 @@
+### Below combination will ignore all files without extension ###
+# from StackOverflow: https://stackoverflow.com/questions/5711120/gitignore-binary-files-that-have-no-extension
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
+### End ignore all files without extension ###
+
+
 # build and executables
 *.o
 main
+
+# miscellaneous
+*.zip
